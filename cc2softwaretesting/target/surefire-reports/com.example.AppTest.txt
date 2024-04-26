@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: com.example.AppTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 47.38 s <<< FAILURE! - in com.example.AppTest
+testCase2(com.example.AppTest)  Time elapsed: 7.008 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a title="" class=" " onclick="set_cookie('txlN2__Funny-Story/Emily-Henry_text');" href="/w/funny-story-emily-henry/1143852959?ean=2940159543998" product-title-plp="...">Funny Story</a> is not clickable at point (511, 537). Other element would receive the click: <div id="onetrust-policy-text">...</div>
+  (Session info: chrome=124.0.6367.91)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9bd08adb9db80cd5d8c734783138481a, clickElement {id=f.EDE8ABE585F714F598E2BDBCE895DF39.d.519F60CB9CFC7DC68855C93BF73AFB9A.e.504}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.91, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\91701\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60409/devtoo..., se:cdpVersion: 124.0.6367.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9bd08adb9db80cd5d8c734783138481a)] -> link text: Funny Story]
+Session ID: 9bd08adb9db80cd5d8c734783138481a
+	at com.example.AppTest.testCase2(AppTest.java:78)
+
+testCase3(com.example.AppTest)  Time elapsed: 4.894 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.91)
+Build info: version: '4.19.1', revision: 'abe0ee07dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9bd08adb9db80cd5d8c734783138481a, findElement {using=xpath, value=//*[@id="rewards-modal-link"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.91, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\91701\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60409}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60409/devtoo..., se:cdpVersion: 124.0.6367.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9bd08adb9db80cd5d8c734783138481a
+	at com.example.AppTest.testCase3(AppTest.java:96)
+
