@@ -101,6 +101,7 @@ public class AppTest
     }
     @AfterTest
     public void quit() {
+        reports.flush();
         driver.quit();
     }
 }

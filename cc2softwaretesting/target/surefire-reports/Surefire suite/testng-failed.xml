@@ -8,6 +8,8 @@
           <include name="testCase2"/>
           <include name="testCase3"/>
           <include name="navigateUrl"/>
+          <include name="testCase1"/>
+          <include name="quit"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.example.AppTest -->
